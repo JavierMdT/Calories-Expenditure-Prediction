@@ -1,0 +1,16 @@
+[project]
+name = "calories-expenditure-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "notebook>=7.4.3",
+    "pandas>=2.2.3",
+]
+
+
+[config]
+train = "data/train.csv"
+test = "data/test.csv"
+sample = "data/sample_submission.csv"
