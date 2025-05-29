@@ -1,12 +1,15 @@
 [project]
 name = "calories-expenditure-prediction"
 version = "0.1.0"
-description = "Add your description here"
+description = "Kaggle Projecy"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "matplotlib>=3.10.3",
     "notebook>=7.4.3",
     "pandas>=2.2.3",
+    "rtoml>=0.12.0",
+    "seaborn>=0.13.2",
 ]
 
 
