@@ -9,6 +9,7 @@ dependencies = [
     "notebook>=7.4.3",
     "pandas>=2.2.3",
     "rtoml>=0.12.0",
+    "scikit-learn>=1.7.0",
     "seaborn>=0.13.2",
 ]
 
